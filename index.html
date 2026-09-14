@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+
+    <header class="py-3 mb-4 border-bottom fundo_head">
+        <div class="container">
+            <div class="text-center mb-3">
+                <a href="index.html" class="d-inline-flex align-items-center text-decoration-none">
+                    <img src="Imagens/Logo simplificada.png" alt="Logo Orbe Living" class="logo_simples">
+                    <span class="fs-3 letra">ORBE LIVING</span>
+                </a>
+            </div>
+
+            <ul class="nav nav-pills justify-content-center gap-2">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link link_colors letra">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="contatos.html" class="nav-link link_colors letra">Fale Conosco</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="depoimentos.html" class="nav-link link_colors letra">Feedbacks</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="apresentacao.html" class="nav-link link_colors letra">Saiba mais</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="servicos.html" class="nav-link link_colors letra">Nossos serviços</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="container">
+
+        <section class="text-center py-5">
+            <h1 class="titulo">Orbe Living</h1>
+            <p class="subtitulo fs-5">Uma forma mais leve, organizada e harmoniosa de viver.</p>
+            <p>Transformamos ambientes desorganizados em espaços funcionais, práticos e personalizados.</p>
+        </section>
+
+
+        <section class="mb-5">
+            <div id="carouselServicos" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselServicos" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselServicos" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselServicos" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner rounded-4">
+
+                    <div class="carousel-item active">
+                        <img src="Imagens/Serviços/img_org_1.jpg" class="d-block w-100" alt="Organização de closets">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Organização de Closets</h3>
+                            <p>Mais praticidade e facilidade para encontrar suas roupas e acessórios.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Imagens/Serviços/img_org_2.jpg" class="d-block w-100" alt="Organização de cozinhas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Organização de Cozinhas</h3>
+                            <p>Melhor aproveitamento do espaço e mais praticidade no dia a dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="Imagens/Serviços/img_org_3.jpg" class="d-block w-100" alt="Organização de Home Office">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Organização de Home Office</h3>
+                            <p>Um espaço mais funcional para trabalhar e estudar.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselServicos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselServicos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+            </div>
+        </section>
+
+
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Nossos serviços</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Imagens/Serviços/img_org_1.jpg" class="card-img-top" alt="Organização de Closets">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Organização de Closets e Guarda-Roupas</h3>
+                            <p class="card-text">Organização completa de roupas, calçados, bolsas e acessórios, com categorização e criação de um sistema fácil de manter.</p>
+                            <p class="numero">A partir de R$ 300,00</p>
+
+                            <a href="servico1.html" class="btn fundo_head">Solicitar orçamento</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Imagens/Serviços/img_org_2.jpg" class="card-img-top" alt="Organização de Cozinhas">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Organização de Cozinhas e Despensas</h3>
+                            <p class="card-text">Organização de alimentos, utensílios e produtos para melhorar o aproveitamento do espaço e facilitar a rotina.</p>
+                            <p class="numero">A partir de R$ 350,00</p>
+
+                            <a href="servico2.html" class="btn fundo_head">Solicitar orçamento</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="Imagens/Serviços/img_org_3.jpg" class="card-img-top" alt="Organização de Home Office">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Organização de Home Office</h3>
+                            <p class="card-text">Organização de documentos, materiais, equipamentos e objetos para deixar o ambiente mais funcional e prático.</p>
+                            <p class="numero">A partir de R$ 250,00</p>
+
+                            <a href="servico3.html" class="btn fundo_head">Solicitar orçamento</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="text-center py-5 mb-5">
+            <h2>Precisa de ajuda para organizar seu ambiente?</h2>
+            <p>Entre em contato com a Orbe Living e solicite seu orçamento.</p>
+            <a href="https://wa.me/5549933113062" target="_blank" class="btn fundo_head">Conversar pelo WhatsApp</a>
+        </section>
+
+    </main>
+
+
+    <footer class="text-center py-4">
+        <p class="mb-0">© 2026 Orbe Living — Desenvolvido por Yalei Bevilaqua de Carvalho</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html> 
